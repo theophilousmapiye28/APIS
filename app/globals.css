@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Container{
+  background: url(../public/images/final.jpg);
+  height: 60vh;
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.flex-row {
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hallowin{
+  background: url(../public/images/uGvnLKljlv38vQQGg18suIeNBDo.jpg);
+ background-repeat: no-repeat;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
